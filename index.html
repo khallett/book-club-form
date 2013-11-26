@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forms</title>
+<link href="css/general.css" rel="stylesheet">
+</head>
+<body>
+
+<img src="img/adl2.jpg" class="flex-img">
+
+<form>
+
+	<h1> DYSTOPIAN LITERATURE CLUB! </h1>
+
+    <div>
+    	<label for="name">
+        Name
+        <strong class="error">NAUGHTY, NAUGHTY, NAUGHTY! You must fill this in!</strong>
+        </label>
+    	<input type="text" id="name" class="input-text input-error" required>
+    </div>
+    
+    <div>
+    	<label for="email">E-Mail Address</label>
+    	<input type="email" id="email" class="input-text" maxlength="256" required>
+    </div>
+    
+    <div>
+    	<label for="phone">Address</label>
+        <strong class="error">NAUGHTY, NAUGHTY, NAUGHTY! You must fill this in!</strong>
+    	<input type="tell" id="phone" class="input-text input-error" maxlength="20" minlength="10" required>
+    </div>
+    
+    <div>
+    	<label for="city">City</label>
+    	<input type="tell" id="phone" class="input-text" maxlength="20" minlength="10" required>
+    </div>
+    
+    <div>
+    	<label for="postalcose">Postal Code</label>
+    	<input type="postal" id="postalcode" class="input-text" maxlength="7" required>
+    </div>
+    
+    <div>
+    	<label for="province">Province</label>
+        <select id="province" required>
+        	<option>Select One</option>
+        	<option>British Columbia</option>
+            <option>Alberta</option>
+            <option>Sasktchewan</option>
+            <option>Ontario</option>
+            <option>Quebec</option>
+            <option>New Brunswick</option>
+            <option>Nova Scotia</option>
+            <option>Prince Edward Island</option>
+            <option>Newfoundland</option>
+        
+        </select>
+    </div>
+    
+     <div>
+    	<label for="availability">What time of day is best for you?</label>
+        <select id="time" required>
+        	<option</option>
+            <option>10-12pm</option>
+            <option>12-2pm</option>
+            <option>2-4pm</option>
+            <option>4-6pm</option>
+        </select>
+    </div>
+    
+     <div>
+    	<label for="books">How many books have you read in the past year?</label>
+        <select id="date" optional>
+        	<option</option>
+        	<option>0-5</option>
+            <option>5-10</option>
+            <option>10-15</option>
+            <option>15-20</option>
+            <option>20-mind blown!</option>
+        </select>
+    </div>
+    
+    <br>
+        
+    <fieldset>
+    	<legend class="radio">Do you enjoy dystopian literature?</legend>
+        
+        <input type="radio" id="extremepoor" name="satisfaction">
+        <label for="extremepoor">Not at all</label>
+        
+        <input type="radio" id="dissatisfied" name="satisfaction">
+        <label for="dissatisfied">It's okay</label>
+        
+        <input type="radio" id="neutral" name="satisfaction">
+        <label for="neutral">I enjoy it</label>
+        
+        <input type="radio" id="satisfied" name="satisfaction">
+        <label for="satisfied">It's my favourite genre</label>
+    </fieldset>
+        
+    <div>
+    	<label for="why">Tell me why you love dystopian satire.</label>
+        <textarea for="why" class="input-text"></textarea>
+    </div>
+    
+    <button type="submit">Viddy Well!</button>
+
+</form>
+
+</body>
+</html>
