@@ -22,7 +22,7 @@ html {
 
 h1 {
 	color: #fff;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -85,4 +85,44 @@ button {
 
 .input-error {
 	border: 3px solid #f33;
+}
+
+@media only screen and (min-width: 30em) {
+	
+	h1 {
+		color: #fff;
+		font-size: 5em;
+		text-align: center;
+	}
+	
+	input {
+		font-size: 2rem;
+	}
+
+	label {
+		font-size: 140%;
+	}
+	
+}
+
+
+@media only screen and (min-width: 45em) {
+	
+	h1 {
+		color: #fff;
+		font-size: 6em;
+		text-align: center;
+	}
+	
+	input {
+		font-size: 3rem;
+	}
+
+	label {
+		font-size: 160%;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	
 }
